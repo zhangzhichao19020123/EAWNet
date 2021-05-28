@@ -1,4 +1,4 @@
-# RAWNet
+# EAWNet
 
 
 
@@ -34,7 +34,7 @@
 
 # 1. Train
 
-[use yolov4 to train your own data](Use_yolov4_to_train_your_own_data.md)
+[use it to train your own data](Use_it_to_train_your_own_data.md)
 
 1. Download weight
 2. Transform data
