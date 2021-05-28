@@ -1,0 +1,68 @@
+8python test.py \
+  --model [stage] \
+  --checkpoints [path to checkpoints] \
+  --input [path to input directory or file] \
+  --mask [path to masks directory or mask file] \
+  --output [path to the output directory]
+python test.py  --checkpoints  ./checkpoints/places2   --input  ./examples/places2/images  --mask ./examples/places2/masks  --output ./checkpoints/results
+python train.py --model 1 --checkpoints ./checkpoints0818/visedge
+
+python test.py --checkpoints ./checkpoints/places2 --input ./datasets/inputvis --mask ./datasets/maskvis --output  ./datasets/outputvis
+
+0824output11visedge
+python test.py --checkpoints ./checkpoints0818/visedge --input ./datasets/input --mask ./datasets/mask --output  ./datasets/output11
+
+
+
+python test.py --image examples/places2/1.png --mask examples/places2/mask1.png --output examples/places2/output1.png --checkpoint_dir logs/full_model_celeba_hq_256_inpaintingv20815
+python test.py --image examples/places2/1.png --mask examples/places2/mask1.png --output examples/places2/output2.png --checkpoint_dir logs/full_model_celeba_hq_256
+python test.py --image examples/places2/1.png --mask examples/places2/mask1.png --output examples/places2/output1.png --checkpoint_dir logs/inpaintingv2refinenetmodel0817
+output11 采用edge0818效果不高，还是采用places2试一下0826  output11places2
+python test.py     --image  datasets/input11test/1.png  --mask  datasets/mask11test2/1.png  --output   datasets/output11places2/1.png  --checkpoint_dir places2
+1005
+python test.py --checkpoints ./checkpoints10000000/visdrone --input ./datasets/input --mask ./datasets/mask --output  ./datasets/output
+python test.py --checkpoints ./checkpoints/places2  --input ./datasets/input --mask ./datasets/mask --output  ./datasets/output
+
+1029
+python test.py --checkpoints ./checkpoints10000000/visdrone --input ./datasets/input --mask ./datasets/mask --output  ./datasets/output
+1231film
+python test.py --checkpoints ./checkpoints/places2   --mode 1 --input ./datasets/input --mask ./datasets/mask --output  ./datasets/output
+python test.py --checkpoints ./checkpoints/places2   --mode 2 --input ./datasets/input --mask ./datasets/mask --output  ./datasets/output
+python test.py --checkpoints ./checkpoints/places2   --mode 3 --input ./datasets/input --mask ./datasets/mask --output  ./datasets/output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
